@@ -204,7 +204,7 @@ spec:
             - name: url
               value: https://github.com/ernesgonzalez33/rhtap-consoledot-frontend-build
             - name: revision
-              value: add-limits-to-dockerfile-task
+              value: ab222e3a469a0ea4af07dd1808e0135c6238bc4a
             - name: pathInRepo
               value: tasks/parse-build-deploy-script/parse-build-deploy-script.yaml
       workspaces:
@@ -219,7 +219,7 @@ spec:
           - name: url
             value: https://github.com/ernesgonzalez33/rhtap-consoledot-frontend-build
           - name: revision
-            value: add-limits-to-dockerfile-task
+            value: ab222e3a469a0ea4af07dd1808e0135c6238bc4a
           - name: pathInRepo
             value: tasks/create-frontend-dockerfile/create-frontend-dockerfile.yaml
       workspaces:
