@@ -250,7 +250,7 @@ spec:
         - name: preview-route-path
           value: $(tasks.parse-build-deploy-script.results.preview-route-path)
         - name: is-pr
-          value: "true"
+          value: "false"
         - name: ci-root
           value: $(tasks.parse-build-deploy-script.results.ci-root)
         - name: server-name
